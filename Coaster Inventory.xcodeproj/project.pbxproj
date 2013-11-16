@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED3A89EE1836A26B0019DD9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED3A89ED1836A26B0019DD9D /* Foundation.framework */; };
+		ED3A89F01836A26B0019DD9D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED3A89EF1836A26B0019DD9D /* CoreGraphics.framework */; };
+		ED3A89F21836A26B0019DD9D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED3A89F11836A26B0019DD9D /* UIKit.framework */; };
+		ED3A89F81836A26B0019DD9D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED3A89F61836A26B0019DD9D /* InfoPlist.strings */; };
+		ED3A89FA1836A26B0019DD9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3A89F91836A26B0019DD9D /* main.m */; };
+		ED3A89FE1836A26B0019DD9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3A89FD1836A26B0019DD9D /* AppDelegate.m */; };
+		ED3A8A011836A26B0019DD9D /* Main_iphone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED3A89FF1836A26B0019DD9D /* Main_iphone.storyboard */; };
+		ED3A8A041836A26B0019DD9D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3A8A031836A26B0019DD9D /* ViewController.m */; };
+		ED3A8A061836A26B0019DD9D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED3A8A051836A26B0019DD9D /* Images.xcassets */; };
+		ED3A8A0D1836A26B0019DD9D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED3A8A0C1836A26B0019DD9D /* XCTest.framework */; };
+		ED3A8A0E1836A26B0019DD9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED3A89ED1836A26B0019DD9D /* Foundation.framework */; };
+		ED3A8A0F1836A26B0019DD9D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED3A89F11836A26B0019DD9D /* UIKit.framework */; };
+		ED3A8A171836A26B0019DD9D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED3A8A151836A26B0019DD9D /* InfoPlist.strings */; };
+		ED3A8A191836A26B0019DD9D /* RecipePhotoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3A8A181836A26B0019DD9D /* RecipePhotoTests.m */; };
+		ED3A8A271836A3A90019DD9D /* RecipeCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3A8A261836A3A90019DD9D /* RecipeCollectionViewController.m */; };
+		ED3A8A291836A9CA0019DD9D /* images.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED3A8A281836A9CA0019DD9D /* images.plist */; };
+		ED3A8A2C1836AE300019DD9D /* CoasterImage.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3A8A2B1836AE300019DD9D /* CoasterImage.m */; };
+		ED3A8A2F1837C1950019DD9D /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3A8A2E1837C1950019DD9D /* DetailViewController.m */; };
+		ED3A8A7A1837D6E00019DD9D /* Main_ipad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED3A8A781837D6E00019DD9D /* Main_ipad.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED3A8A101836A26B0019DD9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED3A89E21836A26B0019DD9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED3A89E91836A26B0019DD9D;
+			remoteInfo = RecipePhoto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED3A89EA1836A26B0019DD9D /* Coaster Inventory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coaster Inventory.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED3A89ED1836A26B0019DD9D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ED3A89EF1836A26B0019DD9D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ED3A89F11836A26B0019DD9D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ED3A89F51836A26B0019DD9D /* Coaster Inventory-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Coaster Inventory-Info.plist"; sourceTree = "<group>"; };
+		ED3A89F71836A26B0019DD9D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ED3A89F91836A26B0019DD9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED3A89FB1836A26B0019DD9D /* Coaster Inventory-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Coaster Inventory-Prefix.pch"; sourceTree = "<group>"; };
+		ED3A89FC1836A26B0019DD9D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ED3A89FD1836A26B0019DD9D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ED3A8A001836A26B0019DD9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iphone.storyboard; sourceTree = "<group>"; };
+		ED3A8A021836A26B0019DD9D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ED3A8A031836A26B0019DD9D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ED3A8A051836A26B0019DD9D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ED3A8A0B1836A26B0019DD9D /* Coaster InventoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coaster InventoryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED3A8A0C1836A26B0019DD9D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		ED3A8A141836A26B0019DD9D /* Coaster InventoryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Coaster InventoryTests-Info.plist"; sourceTree = "<group>"; };
+		ED3A8A161836A26B0019DD9D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ED3A8A181836A26B0019DD9D /* RecipePhotoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecipePhotoTests.m; sourceTree = "<group>"; };
+		ED3A8A251836A3A90019DD9D /* RecipeCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeCollectionViewController.h; sourceTree = "<group>"; };
+		ED3A8A261836A3A90019DD9D /* RecipeCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeCollectionViewController.m; sourceTree = "<group>"; };
+		ED3A8A281836A9CA0019DD9D /* images.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = images.plist; sourceTree = "<group>"; };
+		ED3A8A2A1836AE300019DD9D /* CoasterImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoasterImage.h; sourceTree = "<group>"; };
+		ED3A8A2B1836AE300019DD9D /* CoasterImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoasterImage.m; sourceTree = "<group>"; };
+		ED3A8A2D1837C1950019DD9D /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		ED3A8A2E1837C1950019DD9D /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		ED3A8A791837D6E00019DD9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_ipad.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED3A89E71836A26B0019DD9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED3A89F01836A26B0019DD9D /* CoreGraphics.framework in Frameworks */,
+				ED3A89F21836A26B0019DD9D /* UIKit.framework in Frameworks */,
+				ED3A89EE1836A26B0019DD9D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED3A8A081836A26B0019DD9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED3A8A0D1836A26B0019DD9D /* XCTest.framework in Frameworks */,
+				ED3A8A0F1836A26B0019DD9D /* UIKit.framework in Frameworks */,
+				ED3A8A0E1836A26B0019DD9D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED3A89E11836A26B0019DD9D = {
+			isa = PBXGroup;
+			children = (
+				ED3A8A741837D21C0019DD9D /* iPad */,
+				ED3A89F31836A26B0019DD9D /* RecipePhoto */,
+				ED3A8A121836A26B0019DD9D /* RecipePhotoTests */,
+				ED3A89EC1836A26B0019DD9D /* Frameworks */,
+				ED3A89EB1836A26B0019DD9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED3A89EB1836A26B0019DD9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED3A89EA1836A26B0019DD9D /* Coaster Inventory.app */,
+				ED3A8A0B1836A26B0019DD9D /* Coaster InventoryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED3A89EC1836A26B0019DD9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED3A89ED1836A26B0019DD9D /* Foundation.framework */,
+				ED3A89EF1836A26B0019DD9D /* CoreGraphics.framework */,
+				ED3A89F11836A26B0019DD9D /* UIKit.framework */,
+				ED3A8A0C1836A26B0019DD9D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED3A89F31836A26B0019DD9D /* RecipePhoto */ = {
+			isa = PBXGroup;
+			children = (
+				ED3A89FC1836A26B0019DD9D /* AppDelegate.h */,
+				ED3A89FD1836A26B0019DD9D /* AppDelegate.m */,
+				ED3A89FF1836A26B0019DD9D /* Main_iphone.storyboard */,
+				ED3A8A781837D6E00019DD9D /* Main_ipad.storyboard */,
+				ED3A8A021836A26B0019DD9D /* ViewController.h */,
+				ED3A8A031836A26B0019DD9D /* ViewController.m */,
+				ED3A8A2D1837C1950019DD9D /* DetailViewController.h */,
+				ED3A8A2E1837C1950019DD9D /* DetailViewController.m */,
+				ED3A8A051836A26B0019DD9D /* Images.xcassets */,
+				ED3A89F41836A26B0019DD9D /* Supporting Files */,
+				ED3A8A251836A3A90019DD9D /* RecipeCollectionViewController.h */,
+				ED3A8A261836A3A90019DD9D /* RecipeCollectionViewController.m */,
+				ED3A8A281836A9CA0019DD9D /* images.plist */,
+				ED3A8A2A1836AE300019DD9D /* CoasterImage.h */,
+				ED3A8A2B1836AE300019DD9D /* CoasterImage.m */,
+			);
+			path = RecipePhoto;
+			sourceTree = "<group>";
+		};
+		ED3A89F41836A26B0019DD9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED3A89F51836A26B0019DD9D /* Coaster Inventory-Info.plist */,
+				ED3A89F61836A26B0019DD9D /* InfoPlist.strings */,
+				ED3A89F91836A26B0019DD9D /* main.m */,
+				ED3A89FB1836A26B0019DD9D /* Coaster Inventory-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED3A8A121836A26B0019DD9D /* RecipePhotoTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED3A8A181836A26B0019DD9D /* RecipePhotoTests.m */,
+				ED3A8A131836A26B0019DD9D /* Supporting Files */,
+			);
+			path = RecipePhotoTests;
+			sourceTree = "<group>";
+		};
+		ED3A8A131836A26B0019DD9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED3A8A141836A26B0019DD9D /* Coaster InventoryTests-Info.plist */,
+				ED3A8A151836A26B0019DD9D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED3A8A741837D21C0019DD9D /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED3A89E91836A26B0019DD9D /* Coaster Inventory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED3A8A1C1836A26B0019DD9D /* Build configuration list for PBXNativeTarget "Coaster Inventory" */;
+			buildPhases = (
+				ED3A89E61836A26B0019DD9D /* Sources */,
+				ED3A89E71836A26B0019DD9D /* Frameworks */,
+				ED3A89E81836A26B0019DD9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Coaster Inventory";
+			productName = RecipePhoto;
+			productReference = ED3A89EA1836A26B0019DD9D /* Coaster Inventory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED3A8A0A1836A26B0019DD9D /* Coaster InventoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED3A8A1F1836A26B0019DD9D /* Build configuration list for PBXNativeTarget "Coaster InventoryTests" */;
+			buildPhases = (
+				ED3A8A071836A26B0019DD9D /* Sources */,
+				ED3A8A081836A26B0019DD9D /* Frameworks */,
+				ED3A8A091836A26B0019DD9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED3A8A111836A26B0019DD9D /* PBXTargetDependency */,
+			);
+			name = "Coaster InventoryTests";
+			productName = RecipePhotoTests;
+			productReference = ED3A8A0B1836A26B0019DD9D /* Coaster InventoryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED3A89E21836A26B0019DD9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Don Browning";
+				TargetAttributes = {
+					ED3A8A0A1836A26B0019DD9D = {
+						TestTargetID = ED3A89E91836A26B0019DD9D;
+					};
+				};
+			};
+			buildConfigurationList = ED3A89E51836A26B0019DD9D /* Build configuration list for PBXProject "Coaster Inventory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED3A89E11836A26B0019DD9D;
+			productRefGroup = ED3A89EB1836A26B0019DD9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED3A89E91836A26B0019DD9D /* Coaster Inventory */,
+				ED3A8A0A1836A26B0019DD9D /* Coaster InventoryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED3A89E81836A26B0019DD9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED3A8A7A1837D6E00019DD9D /* Main_ipad.storyboard in Resources */,
+				ED3A8A291836A9CA0019DD9D /* images.plist in Resources */,
+				ED3A8A061836A26B0019DD9D /* Images.xcassets in Resources */,
+				ED3A89F81836A26B0019DD9D /* InfoPlist.strings in Resources */,
+				ED3A8A011836A26B0019DD9D /* Main_iphone.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED3A8A091836A26B0019DD9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED3A8A171836A26B0019DD9D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED3A89E61836A26B0019DD9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED3A8A271836A3A90019DD9D /* RecipeCollectionViewController.m in Sources */,
+				ED3A8A2C1836AE300019DD9D /* CoasterImage.m in Sources */,
+				ED3A8A041836A26B0019DD9D /* ViewController.m in Sources */,
+				ED3A89FE1836A26B0019DD9D /* AppDelegate.m in Sources */,
+				ED3A89FA1836A26B0019DD9D /* main.m in Sources */,
+				ED3A8A2F1837C1950019DD9D /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED3A8A071836A26B0019DD9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED3A8A191836A26B0019DD9D /* RecipePhotoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED3A8A111836A26B0019DD9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED3A89E91836A26B0019DD9D /* Coaster Inventory */;
+			targetProxy = ED3A8A101836A26B0019DD9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED3A89F61836A26B0019DD9D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED3A89F71836A26B0019DD9D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ED3A89FF1836A26B0019DD9D /* Main_iphone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED3A8A001836A26B0019DD9D /* Base */,
+			);
+			name = Main_iphone.storyboard;
+			sourceTree = "<group>";
+		};
+		ED3A8A151836A26B0019DD9D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED3A8A161836A26B0019DD9D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ED3A8A781837D6E00019DD9D /* Main_ipad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED3A8A791837D6E00019DD9D /* Base */,
+			);
+			name = Main_ipad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED3A8A1A1836A26B0019DD9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ED3A8A1B1836A26B0019DD9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED3A8A1D1836A26B0019DD9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RecipePhoto/Coaster Inventory-Prefix.pch";
+				INFOPLIST_FILE = "RecipePhoto/Coaster Inventory-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "Coaster Inventory";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ED3A8A1E1836A26B0019DD9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RecipePhoto/Coaster Inventory-Prefix.pch";
+				INFOPLIST_FILE = "RecipePhoto/Coaster Inventory-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "Coaster Inventory";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ED3A8A201836A26B0019DD9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RecipePhoto.app/RecipePhoto";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RecipePhoto/RecipePhoto-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RecipePhotoTests/Coaster InventoryTests-Info.plist";
+				PRODUCT_NAME = "Coaster InventoryTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		ED3A8A211836A26B0019DD9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RecipePhoto.app/RecipePhoto";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RecipePhoto/RecipePhoto-Prefix.pch";
+				INFOPLIST_FILE = "RecipePhotoTests/Coaster InventoryTests-Info.plist";
+				PRODUCT_NAME = "Coaster InventoryTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED3A89E51836A26B0019DD9D /* Build configuration list for PBXProject "Coaster Inventory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED3A8A1A1836A26B0019DD9D /* Debug */,
+				ED3A8A1B1836A26B0019DD9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED3A8A1C1836A26B0019DD9D /* Build configuration list for PBXNativeTarget "Coaster Inventory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED3A8A1D1836A26B0019DD9D /* Debug */,
+				ED3A8A1E1836A26B0019DD9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED3A8A1F1836A26B0019DD9D /* Build configuration list for PBXNativeTarget "Coaster InventoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED3A8A201836A26B0019DD9D /* Debug */,
+				ED3A8A211836A26B0019DD9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED3A89E21836A26B0019DD9D /* Project object */;
+}
