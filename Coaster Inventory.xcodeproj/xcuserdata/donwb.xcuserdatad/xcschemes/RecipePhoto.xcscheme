@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "ED3A89E91836A26B0019DD9D"
-               BuildableName = "Coaster Viewer.app"
+               BuildableName = "Coaster Inventory.app"
                BlueprintName = "Coaster Inventory"
                ReferencedContainer = "container:Coaster Inventory.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "ED3A8A0A1836A26B0019DD9D"
-               BuildableName = "Coaster ViewerTests.xctest"
+               BuildableName = "Coaster InventoryTests.xctest"
                BlueprintName = "Coaster InventoryTests"
                ReferencedContainer = "container:Coaster Inventory.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ED3A89E91836A26B0019DD9D"
-            BuildableName = "Coaster Viewer.app"
+            BuildableName = "Coaster Inventory.app"
             BlueprintName = "Coaster Inventory"
             ReferencedContainer = "container:Coaster Inventory.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ED3A89E91836A26B0019DD9D"
-            BuildableName = "Coaster Viewer.app"
+            BuildableName = "Coaster Inventory.app"
             BlueprintName = "Coaster Inventory"
             ReferencedContainer = "container:Coaster Inventory.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ED3A89E91836A26B0019DD9D"
-            BuildableName = "Coaster Viewer.app"
+            BuildableName = "Coaster Inventory.app"
             BlueprintName = "Coaster Inventory"
             ReferencedContainer = "container:Coaster Inventory.xcodeproj">
          </BuildableReference>

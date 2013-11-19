@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>006D0B59-35E4-4989-8EEE-D6B9A542804B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Coaster Inventory</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6198C4D9-1772-4C92-B945-A9702AD2215E</key>
+		<string>https://github.com/donwb/CoasterInventory.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Coaster Inventory.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6198C4D9-1772-4C92-B945-A9702AD2215E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/donwb/CoasterInventory.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6198C4D9-1772-4C92-B945-A9702AD2215E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6198C4D9-1772-4C92-B945-A9702AD2215E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CoasterInventory</string>
+		</dict>
+	</array>
+</dict>
+</plist>

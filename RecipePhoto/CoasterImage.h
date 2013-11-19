@@ -13,5 +13,6 @@
 
 @property (nonatomic, copy) NSString *name;
 @property (nonatomic, copy) NSString *filename;
+@property  int count;
 
 @end

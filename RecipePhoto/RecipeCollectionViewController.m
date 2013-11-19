@@ -15,6 +15,7 @@
 
 @implementation RecipeCollectionViewController
 
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -33,6 +34,14 @@
     //RecipeCollectionViewController *viewController = (RecipeCollectionViewController *) self.window.rootViewController;
     
     self.photos = photos;
+    
+    for (CoasterImage *img in photos) {
+        img.count = 0;
+    }
+    
+    // Staple in a count value to the first coaster
+    //CoasterImage *img = (CoasterImage *) [self.photos objectAtIndex:0];
+    //img.count = 45;
     
     
 }
@@ -53,6 +62,7 @@
     UIButton *imageButton = (UIButton *) [cell viewWithTag:100];
     
     UILabel *label = (UILabel *)[cell viewWithTag:1000];
+    UILabel *countLabel = (UILabel *)[cell viewWithTag:2000];
 
     
     CoasterImage *img = [self.photos objectAtIndex:indexPath.row];
@@ -61,6 +71,8 @@
     [imageButton setTitle:@"" forState:UIControlStateNormal];
     [imageButton setBackgroundImage:[UIImage imageNamed:img.filename] forState:UIControlStateNormal];
     label.text = img.name;
+    countLabel.text = [NSString stringWithFormat:@"%d", img.count];
+    
     
     return cell;
 }
@@ -94,14 +106,18 @@
     
     // This is kinda hacky.. what if the label isn't element 0?
     UILabel *label = (UILabel *) [subviews objectAtIndex:0];
-    UILabel *count = (UILabel *) [subviews objectAtIndex:2];
+    UILabel *countLabel = (UILabel *) [subviews objectAtIndex:2];
     
-    NSLog(label.text);
-    NSString *val = count.text;
-    NSInteger i = [val intValue];
-    i++;
+        
+    for (CoasterImage *img in self.photos) {
+        if ([img.name isEqualToString:label.text]) {
+            NSLog(@"Fount it %@", label.text);
+            img.count++;
+            countLabel.text = [NSString stringWithFormat:@"%d", img.count];
+        }
+    }
     
-    count.text = [NSString stringWithFormat:@"%d", i];
+    
     
     
 }
