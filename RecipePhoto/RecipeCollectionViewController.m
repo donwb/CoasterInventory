@@ -8,7 +8,6 @@
 
 #import "RecipeCollectionViewController.h"
 #import "CoasterImage.h"
-#import "DetailViewController.h"
 
 @interface RecipeCollectionViewController ()
 
@@ -50,13 +49,17 @@
     
     cell.backgroundView = [[UIImageView alloc] initWithImage: [UIImage imageNamed:@"photo-frame"]];
                            
-    UIImageView *recipeImageView = (UIImageView *)[cell viewWithTag:100];
+    //UIImageView *recipeImageView = (UIImageView *)[cell viewWithTag:100];
+    UIButton *imageButton = (UIButton *) [cell viewWithTag:100];
+    
     UILabel *label = (UILabel *)[cell viewWithTag:1000];
 
     
     CoasterImage *img = [self.photos objectAtIndex:indexPath.row];
     
-    recipeImageView.image = [UIImage imageNamed:img.filename];
+    //recipeImageView.image = [UIImage imageNamed:img.filename];
+    [imageButton setTitle:@"" forState:UIControlStateNormal];
+    [imageButton setBackgroundImage:[UIImage imageNamed:img.filename] forState:UIControlStateNormal];
     label.text = img.name;
     
     return cell;
@@ -83,18 +86,27 @@
     return photoList;
 }
 
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    DetailViewController *detail = (DetailViewController *) segue.destinationViewController;
+- (IBAction)imageTapped:(id)sender {
+    UIButton *b = (UIButton *)sender;
     
-    NSArray *indexPaths = [self.collectionView indexPathsForSelectedItems];
-    NSIndexPath *indexPath = [indexPaths objectAtIndex:0];
+    UICollectionViewCell *cell =  (UICollectionViewCell *)[b superview];
+    NSArray *subviews = [cell subviews];
     
-    CoasterImage *img = [self.photos objectAtIndex:indexPath.row];
-    detail.selectedImage = img;
+    // This is kinda hacky.. what if the label isn't element 0?
+    UILabel *label = (UILabel *) [subviews objectAtIndex:0];
+    UILabel *count = (UILabel *) [subviews objectAtIndex:2];
     
-    NSLog(@"%@", img.name);
+    NSLog(label.text);
+    NSString *val = count.text;
+    NSInteger i = [val intValue];
+    i++;
+    
+    count.text = [NSString stringWithFormat:@"%d", i];
+    
+    
 }
+
+
 
 
 - (void)didReceiveMemoryWarning
