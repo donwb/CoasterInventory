@@ -98,8 +98,20 @@
     return photoList;
 }
 
+- (IBAction)decrementButton:(id)sender {
+    NSLog(@"down");
+    
+    UIButton *b = (UIButton *) sender;
+    [self modifyCount:b incrementCount:false];
+}
+
 - (IBAction)imageTapped:(id)sender {
+    
     UIButton *b = (UIButton *)sender;
+    [self modifyCount:b  incrementCount:true];
+}
+
+- (void) modifyCount:(UIButton *) b incrementCount:(bool)inc {
     
     UICollectionViewCell *cell =  (UICollectionViewCell *)[b superview];
     NSArray *subviews = [cell subviews];
@@ -108,18 +120,16 @@
     UILabel *label = (UILabel *) [subviews objectAtIndex:0];
     UILabel *countLabel = (UILabel *) [subviews objectAtIndex:2];
     
-        
+    
     for (CoasterImage *img in self.photos) {
         if ([img.name isEqualToString:label.text]) {
             NSLog(@"Fount it %@", label.text);
-            img.count++;
+            
+            if(inc){img.count++;}else{img.count--;}
+            
             countLabel.text = [NSString stringWithFormat:@"%d", img.count];
         }
     }
-    
-    
-    
-    
 }
 
 
@@ -140,6 +150,14 @@
     [avc setValue:@"Inventory Export" forKey:@"subject"];
     
     [self presentViewController:avc animated:YES completion:nil];
+}
+
+- (IBAction)cancel:(id)sender {
+    for(CoasterImage *i in self.photos){
+        i.count = 0;
+    }
+    
+    [self.collectionView reloadData];
 }
 
 - (NSString *)createEmail {

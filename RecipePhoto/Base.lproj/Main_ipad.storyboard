@@ -77,6 +77,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Coaster Inventory" id="er1-rJ-Cej">
+                        <barButtonItem key="leftBarButtonItem" title="Clear" id="hz0-0a-iaq">
+                            <connections>
+                                <action selector="cancel:" destination="w6A-bL-bJj" id="WRo-pX-0Ke"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" style="plain" systemItem="action" id="A1s-AS-qmK">
                             <connections>
                                 <action selector="exportInventory:" destination="w6A-bL-bJj" id="ESK-9f-SNr"/>
