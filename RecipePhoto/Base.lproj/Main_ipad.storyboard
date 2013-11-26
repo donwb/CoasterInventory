@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A598" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="gA9-hS-Vaj">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="gA9-hS-Vaj">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <scenes>
-        <!--Recipe Collection View Controller - City Coasters Catalog-->
+        <!--Recipe Collection View Controller - Coaster Inventory-->
         <scene sceneID="5sg-AT-5za">
             <objects>
                 <viewController id="w6A-bL-bJj" customClass="RecipeCollectionViewController" sceneMemberID="viewController">
@@ -76,7 +76,7 @@
                             <constraint firstAttribute="bottom" secondItem="SRi-FM-lgE" secondAttribute="bottom" id="wpi-it-SbT"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="City Coasters Catalog" id="er1-rJ-Cej"/>
+                    <navigationItem key="navigationItem" title="Coaster Inventory" id="er1-rJ-Cej"/>
                     <connections>
                         <outlet property="collectionView" destination="SRi-FM-lgE" id="BHO-Ms-gJ7"/>
                     </connections>

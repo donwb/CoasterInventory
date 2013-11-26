@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A598" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="gA9-hS-Vaj">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="gA9-hS-Vaj">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <scenes>
-        <!--Recipe Collection View Controller - City Coasters-->
+        <!--Recipe Collection View Controller - Coasters-->
         <scene sceneID="5sg-AT-5za">
             <objects>
                 <viewController id="w6A-bL-bJj" customClass="RecipeCollectionViewController" sceneMemberID="viewController">
@@ -76,7 +76,13 @@
                             <constraint firstAttribute="bottom" secondItem="SRi-FM-lgE" secondAttribute="bottom" id="aYq-fx-crq"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="City Coasters" id="er1-rJ-Cej"/>
+                    <navigationItem key="navigationItem" title="Coasters" id="er1-rJ-Cej">
+                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="action" id="ORC-tT-Qk0">
+                            <connections>
+                                <action selector="exportInventory:" destination="w6A-bL-bJj" id="bIj-j5-f7K"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="collectionView" destination="SRi-FM-lgE" id="BHO-Ms-gJ7"/>
                     </connections>

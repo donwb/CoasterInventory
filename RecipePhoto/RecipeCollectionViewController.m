@@ -123,7 +123,39 @@
 }
 
 
+- (IBAction)exportInventory:(id)sender {
+    NSString *shareInfo = [self createEmail];
+    
+    
+    UIActivityViewController* avc = [[UIActivityViewController alloc] initWithActivityItems:@[shareInfo] applicationActivities:nil];
+    
+    NSArray *excludedActivities = @[UIActivityTypePostToTwitter, UIActivityTypePostToFacebook,
+                                    UIActivityTypePostToWeibo,
+                                    UIActivityTypeMessage,
+                                    UIActivityTypePrint, UIActivityTypeCopyToPasteboard,
+                                    UIActivityTypeAssignToContact, UIActivityTypeSaveToCameraRoll,
+                                    UIActivityTypeAddToReadingList, UIActivityTypePostToFlickr,
+                                    UIActivityTypePostToVimeo, UIActivityTypePostToTencentWeibo];
+    avc.excludedActivityTypes = excludedActivities;
+    [avc setValue:@"Inventory Export" forKey:@"subject"];
+    
+    [self presentViewController:avc animated:YES completion:nil];
+}
 
+- (NSString *)createEmail {
+    NSMutableString *out = [[NSMutableString alloc] init];
+    
+    for(CoasterImage *i in self.photos) {
+        if(i.count > 0) {
+            [out appendString:i.name];
+            [out appendString:@" - "];
+            [out appendString:[NSString stringWithFormat:@"%i",i.count]];
+            [out appendString:@"\n"];
+        }
+    }
+    
+    return out;
+}
 
 - (void)didReceiveMemoryWarning
 {
