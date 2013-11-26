@@ -31,18 +31,12 @@
 	// Do any additional setup after loading the view.
 
     NSArray *photos = [self loadFromPList];
-    //RecipeCollectionViewController *viewController = (RecipeCollectionViewController *) self.window.rootViewController;
     
     self.photos = photos;
     
     for (CoasterImage *img in photos) {
         img.count = 0;
     }
-    
-    // Staple in a count value to the first coaster
-    //CoasterImage *img = (CoasterImage *) [self.photos objectAtIndex:0];
-    //img.count = 45;
-    
     
 }
 
@@ -58,7 +52,6 @@
     
     cell.backgroundView = [[UIImageView alloc] initWithImage: [UIImage imageNamed:@"photo-frame"]];
                            
-    //UIImageView *recipeImageView = (UIImageView *)[cell viewWithTag:100];
     UIButton *imageButton = (UIButton *) [cell viewWithTag:100];
     
     UILabel *label = (UILabel *)[cell viewWithTag:1000];
@@ -67,7 +60,6 @@
     
     CoasterImage *img = [self.photos objectAtIndex:indexPath.row];
     
-    //recipeImageView.image = [UIImage imageNamed:img.filename];
     [imageButton setTitle:@"" forState:UIControlStateNormal];
     [imageButton setBackgroundImage:[UIImage imageNamed:img.filename] forState:UIControlStateNormal];
     label.text = img.name;

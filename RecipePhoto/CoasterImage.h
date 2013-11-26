@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+/*! represents an image stored in the plist
+ */
 
 @interface CoasterImage : NSObject
 
