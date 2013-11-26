@@ -153,11 +153,19 @@
 }
 
 - (IBAction)cancel:(id)sender {
-    for(CoasterImage *i in self.photos){
-        i.count = 0;
+    UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Are you sure?" message:@"Are you sure you want to clear the inventory numbers"
+                                                   delegate:self cancelButtonTitle:@"No" otherButtonTitles:@"Yes", nil];
+    [alert show];
+}
+
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
+    if(buttonIndex == 1){
+        for(CoasterImage *i in self.photos){
+            i.count = 0;
+        }
+        
+        [self.collectionView reloadData];
     }
-    
-    [self.collectionView reloadData];
 }
 
 - (NSString *)createEmail {
