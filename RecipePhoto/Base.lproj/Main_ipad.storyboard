@@ -76,7 +76,13 @@
                             <constraint firstAttribute="bottom" secondItem="SRi-FM-lgE" secondAttribute="bottom" id="wpi-it-SbT"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Coaster Inventory" id="er1-rJ-Cej"/>
+                    <navigationItem key="navigationItem" title="Coaster Inventory" id="er1-rJ-Cej">
+                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="action" id="A1s-AS-qmK">
+                            <connections>
+                                <action selector="exportInventory:" destination="w6A-bL-bJj" id="ESK-9f-SNr"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="collectionView" destination="SRi-FM-lgE" id="BHO-Ms-gJ7"/>
                     </connections>
