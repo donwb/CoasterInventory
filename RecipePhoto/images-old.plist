@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>filename</key>
+		<string>97 estoria</string>
+		<key>name</key>
+		<string>97 Estoria</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Ansley Park</string>
+		<key>filename</key>
+		<string>Ansley Park</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Atkins Park</string>
+		<key>filename</key>
+		<string>atkins park</string>
+	</dict>
+	<dict>
+		<key>filename</key>
+		<string>Atl from Air</string>
+		<key>name</key>
+		<string>Atl from Air</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Atlanta Eagle</string>
+		<key>filename</key>
+		<string>Atlanta Eagle</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Avondale</string>
+		<key>filename</key>
+		<string>Avondale</string>
+	</dict>
+    <dict>
+		<key>filename</key>
+		<string>Berkeley Park Sign</string>
+		<key>name</key>
+		<string>Berkeley Park Sign</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Big Chicken</string>
+		<key>filename</key>
+		<string>BigChicken</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Blakes</string>
+		<key>filename</key>
+		<string>Blakes</string>
+	</dict>
+	<dict>
+		<key>filename</key>
+		<string>blind willies</string>
+		<key>name</key>
+		<string>Blind Willies</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Botanical</string>
+		<key>filename</key>
+		<string>Botanical</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Brick Store</string>
+		<key>filename</key>
+		<string>Brick Store 2</string>
+	</dict>
+	<dict>
+		<key>filename</key>
+		<string>Cabbage town sign</string>
+		<key>name</key>
+		<string>Cabbage Town</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Candler/McLendon</string>
+		<key>filename</key>
+		<string>Candler and McLendon</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Candler Park</string>
+		<key>filename</key>
+		<string>Candler Park</string>
+	</dict>
+	<dict>
+		<key>filename</key>
+		<string>capitol</string>
+		<key>name</key>
+		<string>Capitol</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Carroll St. Cafe</string>
+		<key>filename</key>
+		<string>carroll st cafe</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Chairs</string>
+		<key>filename</key>
+		<string>Chairs</string>
+	</dict>
+    <dict>
+		<key>filename</key>
+		<string>churchills</string>
+		<key>name</key>
+		<string>Churchills</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>City of Decatur</string>
+		<key>filename</key>
+		<string>city of decatur</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Clermont Dancers</string>
+		<key>filename</key>
+		<string>Clermont 2</string>
+	</dict>
+	<dict>
+		<key>filename</key>
+		<string>Clermont 3</string>
+		<key>name</key>
+		<string>Clermont Motel</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Clifton/McLendon</string>
+		<key>filename</key>
+		<string>Clifton and McLendon</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>CNN Fountain</string>
+		<key>filename</key>
+		<string>cnn fountain</string>
+	</dict>
+    <dict>
+		<key>name</key>
+		<string>Courthouse</string>
+		<key>filename</key>
+		<string>Courthouse</string>
+	</dict>
+	<dict>
+		<key>filename</key>
+		<string>Cowtippers</string>
+		<key>name</key>
+		<string>Cowtippers</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Dive Bar</string>
+		<key>filename</key>
+		<string>dive bar</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Downtown from North Ave</string>
+		<key>filename</key>
+		<string>downtown from north ave</string>
+	</dict>
+    <dict>
+		<key>name</key>
+		<string>East Lake</string>
+		<key>filename</key>
+		<string>East Lake</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Ebenezer</string>
+		<key>filename</key>
+		<string>Ebenezer</string>
+	</dict>
+    <dict>
+		<key>name</key>
+		<string>Eddie's Attic</string>
+		<key>filename</key>
+		<string>Eddies</string>
+	</dict>
+	<dict>
+		<key>filename</key>
+		<string>Everybodys</string>
+		<key>name</key>
+		<string>Everybodys</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Fado</string>
+		<key>filename</key>
+		<string>fado</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Farm Burger</string>
+		<key>filename</key>
+		<string>Farm Burger</string>
+	</dict>
+    <dict>
+		<key>name</key>
+		<string>Fat Matt's'</string>
+		<key>filename</key>
+		<string>Fat Matts</string>
+	</dict>
+    <dict>
+		<key>name</key>
+		<string>Fontaines</string>
+		<key>filename</key>
+		<string>Fontaines-2</string>
+	</dict>
+	<dict>
+		<key>filename</key>
+		<string>Fox</string>
+		<key>name</key>
+		<string>Fox Theater</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Georgia Tech</string>
+		<key>filename</key>
+		<string>gatech-triangle</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Decatur Gazebo</string>
+		<key>filename</key>
+		<string>Gazebo</string>
+	</dict>
+    <dict>
+		<key>filename</key>
+		<string>georges</string>
+		<key>name</key>
+		<string>Georges</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Go Decatur</string>
+		<key>filename</key>
+		<string>Go Decatur</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Grant Park</string>
+		<key>filename</key>
+		<string>Grant Park Sign</string>
+	</dict>
+    <dict>
+		<key>name</key>
+		<string>Hand n Hand Sign</string>
+		<key>filename</key>
+		<string>Hand and Hand 2</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Hand n Hand</string>
+		<key>filename</key>
+		<string>Hand n Hand bldg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Inman Park</string>
+		<key>filename</key>
+		<string>Inman Park Sign-New</string>
+	</dict>
+    <dict>
+		<key>name</key>
+		<string>Inman Park</string>
+		<key>filename</key>
+		<string>Inman park sign</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Irwin Street Market</string>
+		<key>filename</key>
+		<string>Irwin Street Market</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>ITP</string>
+		<key>filename</key>
+		<string>itp-black</string>
+	</dict>
+    <dict>
+		<key>name</key>
+		<string>Downtown at Daybreak</string>
+		<key>filename</key>
+		<string>Jackson St daybreak</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Jackson Street</string>
+		<key>filename</key>
+		<string>Jackson St night</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Java Monkey</string>
+		<key>filename</key>
+		<string>Java Monkey</string>
+	</dict>
+    <dict>
+		<key>name</key>
+		<string>Jefferson</string>
+		<key>filename</key>
+		<string>Jefferson</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Joe's on Juniper</string>
+		<key>filename</key>
+		<string>Joes-upclose</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Joe's on Juniper</string>
+		<key>filename</key>
+		<string>Joes-whole sign</string>
+	</dict>
+    <dict>
+		<key>name</key>
+		<string>King and Queen</string>
+		<key>filename</key>
+		<string>king and queen</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Kirkwood</string>
+		<key>filename</key>
+		<string>Kirkwood</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Krog</string>
+		<key>filename</key>
+		<string>Krog</string>
+	</dict>
+    <dict>
+		<key>name</key>
+		<string>Little 5 Points</string>
+		<key>filename</key>
+		<string>l5p</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Leaving Atlanta</string>
+		<key>filename</key>
+		<string>Leaving Atlanta-New</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Leons</string>
+		<key>filename</key>
+		<string>Leons</string>
+	</dict>
+</array>
+</plist>
