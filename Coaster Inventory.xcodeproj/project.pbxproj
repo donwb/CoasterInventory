@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED00063F1853DB1E00C28F1B /* JSCustomBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = ED00063E1853DB1E00C28F1B /* JSCustomBadge.m */; };
 		ED3A89EE1836A26B0019DD9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED3A89ED1836A26B0019DD9D /* Foundation.framework */; };
 		ED3A89F01836A26B0019DD9D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED3A89EF1836A26B0019DD9D /* CoreGraphics.framework */; };
 		ED3A89F21836A26B0019DD9D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED3A89F11836A26B0019DD9D /* UIKit.framework */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ED00063D1853DB1E00C28F1B /* JSCustomBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCustomBadge.h; sourceTree = "<group>"; };
+		ED00063E1853DB1E00C28F1B /* JSCustomBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCustomBadge.m; sourceTree = "<group>"; };
 		ED3A89EA1836A26B0019DD9D /* Coaster Inventory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coaster Inventory.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED3A89ED1836A26B0019DD9D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ED3A89EF1836A26B0019DD9D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -86,9 +89,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED00063C1853DB1E00C28F1B /* JSCustomBadge */ = {
+			isa = PBXGroup;
+			children = (
+				ED00063D1853DB1E00C28F1B /* JSCustomBadge.h */,
+				ED00063E1853DB1E00C28F1B /* JSCustomBadge.m */,
+			);
+			path = JSCustomBadge;
+			sourceTree = "<group>";
+		};
 		ED3A89E11836A26B0019DD9D = {
 			isa = PBXGroup;
 			children = (
+				ED00063C1853DB1E00C28F1B /* JSCustomBadge */,
 				ED3A8A741837D21C0019DD9D /* iPad */,
 				ED3A89F31836A26B0019DD9D /* RecipePhoto */,
 				ED3A8A121836A26B0019DD9D /* RecipePhotoTests */,
@@ -272,6 +285,7 @@
 			files = (
 				ED3A8A271836A3A90019DD9D /* RecipeCollectionViewController.m in Sources */,
 				ED3A8A2C1836AE300019DD9D /* CoasterImage.m in Sources */,
+				ED00063F1853DB1E00C28F1B /* JSCustomBadge.m in Sources */,
 				ED3A89FE1836A26B0019DD9D /* AppDelegate.m in Sources */,
 				ED3A89FA1836A26B0019DD9D /* main.m in Sources */,
 			);

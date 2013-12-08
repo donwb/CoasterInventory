@@ -8,6 +8,7 @@
 
 #import "RecipeCollectionViewController.h"
 #import "CoasterImage.h"
+#import "JSCustomBadge.h"
 
 @interface RecipeCollectionViewController ()
 
@@ -66,6 +67,18 @@
     countLabel.text = [NSString stringWithFormat:@"%d", img.count];
     
     
+    /* This is the custom badge code,
+     it doesn't work b/c of the odd lifecycle stuff
+     when you scroll the view out of the viewable area
+     
+    JSCustomBadge *badge = [JSCustomBadge customBadgeWithString:@"0"];
+    CGSize size = badge.frame.size;
+    badge.frame = CGRectMake(68.0f, 0.4f, size.width, size.height);
+    
+    [cell.contentView addSubview:badge];
+    */
+    
+
     return cell;
 }
 
@@ -80,14 +93,24 @@
     for(id photo in photos)
     {
         CoasterImage *image = [[CoasterImage alloc]init];
-        image.name = photo[@"name"];
+        NSString *name = photo[@"name"];
+        
+        image.name = [name capitalizedString];
         image.filename = photo[@"filename"];
         
         [photoList addObject:image];
         
     }
     
-    return photoList;
+    
+    NSSortDescriptor *sortDescriptor;
+    sortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"name" ascending:YES];
+    NSArray *sortDescriptors = [NSArray arrayWithObject: sortDescriptor];
+    
+    NSArray *sortedArray = [photoList sortedArrayUsingDescriptors:sortDescriptors];
+    NSMutableArray *returnArray = [NSMutableArray arrayWithArray:sortedArray];
+    
+    return returnArray;
 }
 
 - (IBAction)decrementButton:(id)sender {
@@ -111,7 +134,16 @@
     // This is kinda hacky.. what if the label isn't element 0?
     UILabel *label = (UILabel *) [subviews objectAtIndex:0];
     UILabel *countLabel = (UILabel *) [subviews objectAtIndex:2];
+  
     
+/*
+ More badge code i had to pull for now
+ 
+    UICollectionViewCell *topCell = (UICollectionViewCell *) [cell superview];
+
+    NSArray *topSubviews = [topCell.contentView subviews];
+    JSCustomBadge *badge = [[topSubviews objectAtIndex:4];
+*/
     
     for (CoasterImage *img in self.photos) {
         if ([img.name isEqualToString:label.text]) {
@@ -120,6 +152,7 @@
             if(inc){img.count++;}else{img.count--;}
             
             countLabel.text = [NSString stringWithFormat:@"%d", img.count];
+//            [badge autoBadgeSizeWithString:[NSString stringWithFormat:@"%d", img.count]];
         }
     }
 }
